@@ -16,10 +16,9 @@ class OperationMode(IntEnum):
     Used in controls.py in Controls.operation_mode.
     """
 
-    # TODO verify
-    COOL = 0  # not tested
+    COOL = 0  # TODO verify; not tested; G-nn-r cannot set this mode (also not on the remote control)
     AUTO = 3  # tested by G-nn-r
-    HEAT = 4  # not tested
+    HEAT = 4  # tested by G-nn-r
 
 
 class OduOperationCycle(IntEnum):
