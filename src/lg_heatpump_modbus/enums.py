@@ -36,10 +36,9 @@ class ControlMethod(IntEnum):
     Used in controls.py in Controls.control_method.
     """
 
-    # TODO verify
     WATER_OUTLET = 0  # tested by G-nn-r
-    WATER_INLET = 1   # not tested
-    ROOM_AIR = 2      # not tested
+    WATER_INLET = 1   # tested by G-nn-r
+    ROOM_AIR = 2      # TODO verify; not tested; G-nn-r cannot set this mode (also not on the remote control)
 
 
 class EnergyState(IntEnum):
