@@ -1,6 +1,6 @@
 # `lg-heatpump-modbus` Python library
 
-[![CI](https://github.com/G-nn-r/lg-heatpump-modbus/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/G-nn-r/lg-heatpump-modbus/actions/workflows/ci.yml)
+[![CI](https://github.com/lg-heatpump/lg-heatpump-modbus/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/lg-heatpump/lg-heatpump-modbus/actions/workflows/ci.yml)
 [![PyPI](https://img.shields.io/pypi/v/lg-heatpump-modbus.svg)](https://pypi.org/project/lg-heatpump-modbus/)
 [![Python](https://img.shields.io/pypi/pyversions/lg-heatpump-modbus.svg)](https://pypi.org/project/lg-heatpump-modbus/)
 [![License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](LICENSE)

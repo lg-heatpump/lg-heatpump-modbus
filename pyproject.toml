@@ -36,8 +36,8 @@ dependencies = [
 cli = ["modbus-connection[tmodbus]>=4.8.1,<5"]
 
 [project.urls]
-Homepage = "https://github.com/G-nn-r/lg-heatpump-modbus"
-Issues = "https://github.com/G-nn-r/lg-heatpump-modbus/issues"
+Homepage = "https://github.com/lg-heatpump/lg-heatpump-modbus"
+Issues = "https://github.com/lg-heatpump/lg-heatpump-modbus/issues"
 
 [dependency-groups]
 dev = [
