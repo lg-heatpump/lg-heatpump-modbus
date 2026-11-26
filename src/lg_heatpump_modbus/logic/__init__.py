@@ -10,5 +10,25 @@ from .flow_gate import (
     FLOW_SENSOR_RANGE_FLOOR,
     gate_flow_rate,
 )
+from .oil_return_pulse import (
+    EVENT_CANCELLED,
+    EVENT_FINISHED,
+    EVENT_IMMINENT,
+    EVENT_STARTED,
+    OilReturnPulseConfig,
+    OilReturnPulseTracker,
+    PulseRecord,
+)
 
-__all__ = ["FLOW_GATE_KEY", "FLOW_SENSOR_RANGE_FLOOR", "gate_flow_rate"]
+__all__ = [
+    "EVENT_CANCELLED",
+    "EVENT_FINISHED",
+    "EVENT_IMMINENT",
+    "EVENT_STARTED",
+    "FLOW_GATE_KEY",
+    "FLOW_SENSOR_RANGE_FLOOR",
+    "OilReturnPulseConfig",
+    "OilReturnPulseTracker",
+    "PulseRecord",
+    "gate_flow_rate",
+]
